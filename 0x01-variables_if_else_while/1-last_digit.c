@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - last digit
- * Returns 0
+ * Returns: 0
  */
 int main(void)
 {
