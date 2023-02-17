@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main all the single digits
+ * main - all the single digits
  * Return: 0
  */
 
