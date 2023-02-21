@@ -6,5 +6,5 @@
  */
 int _abs(int abs)
 {
-	return (ab * ((ab > 0) - (ab < 0)));
+	return (abs * ((abs > 0) - (abs < 0)));
 }
