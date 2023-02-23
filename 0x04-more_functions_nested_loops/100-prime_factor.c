@@ -23,6 +23,7 @@ int main(void)
 				prime /= div;
 		}
 	}
+
 	printf("%1d\n", prime);
 
 	return (0);
