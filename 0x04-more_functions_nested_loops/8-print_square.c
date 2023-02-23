@@ -3,28 +3,25 @@
 /**
  * print_square - prints a square
  * @size: the size of the square
- * @height: the length of the square
- * @width: the breadth of the square
  * Return: 0
  */
 
-
 void print_square(int size)
 {
-	int height, width;
+	int hgt, wid;
 
 	if (size > 0)
 	{
-		for (height = 0; height < size; height++)
+		for (hgt = 0; hgt < size; hgt++)
 		{
-			for (width = 0; width < size; width++)
+			for (wid = 0; wid < size; wid++)
 				_putchar('#');
 
-			if (height == size - 1)
+			if (hgt == size - 1)
 				continue;
 			_putchar('\n');
 		}
 	}
-	
+
 	_putchar('\n');
 }
