@@ -1,15 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints the numbers 1 to 100, and fizz for multiples of 3 and buzz for multiples of 5
+ * main - prints the numbers 1 to 100, and 
+ * fizz for multiples of 3 and buzz for multiples of 5
  * Return: 0
  */
-
-
-
-
-
-
 
 
 int main(void)
