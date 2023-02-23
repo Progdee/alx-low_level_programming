@@ -5,6 +5,13 @@
  * Return: 0
  */
 
+
+
+
+
+
+
+
 int main(void)
 {
 	int num;
@@ -19,6 +26,7 @@ int main(void)
 
 		else if ((num % 5) == 0)
 			printf("Buzz");
+
 
 		else
 			printf("%d", num);
