@@ -2,11 +2,11 @@
 
 /**
  * print_square - prints a square
- * @s: the size of the square
+ * @size: the size of the square
+ * @height: the length of the square
+ * @width: the breadth of the square
  * Return: 0
  */
-
-
 
 
 void print_square(int size)
