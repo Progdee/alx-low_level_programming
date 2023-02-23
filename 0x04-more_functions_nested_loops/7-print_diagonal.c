@@ -6,6 +6,9 @@
  * Return: 0
  */
 
+
+
+
 void print_diagonal(int n)
 {
 	int length, space;
@@ -25,5 +28,5 @@ void print_diagonal(int n)
 		}
 	}
 
-	_putchcar('\n');
+	_putchar('\n');
 }
