@@ -4,6 +4,7 @@
  * print_number - function to print the exact number
  *
  * @n: n of type int
+ * Return: 0
  */
 
 void print_number(int n)
