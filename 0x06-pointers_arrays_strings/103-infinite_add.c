@@ -7,7 +7,7 @@ able File  47 lines (44 sloc)  826 Bytes
  * @n1: first number.
  * @n2: second number.
  * @r: result.
- * @size_r: result size.
+ * @size_r: buffer size
  * Return: the addition of n1 and n2.
  */
 
