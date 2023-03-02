@@ -1,22 +1,22 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * print_number - Prints an integer.
- * @n: The integer to be printed.
+ * print_number - function to print the exact number
+ * @n: n of type int
  */
 
 void print_number(int n)
 {
-	unsigned int num = n;
+	unsigned int digit = n;
 
 	if (n < 0)
 	{
 		putchar('-');
-		num = -num;
+		digit = -digit;
 	}
 
-	if ((num / 10) > 0)
-		putchar(num / 10);
+	if ((digit / 10) > 0)
+		print_number(digit / 10);
 
-	putchar((num % 10) + '0');
-i}
+	putchar((digit % 10) + '0');
+}
