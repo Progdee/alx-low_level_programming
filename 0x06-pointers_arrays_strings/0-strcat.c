@@ -11,19 +11,18 @@ char *_strcat(char *dest, char *src)
 	int a = 0;
 	int b = 0;
 
-	while (*(dest + a) != '\0')
+	while (dest[a] != '\0')
 	{
 		a++;
-		b++;
 	}
 
-	while (*(src + a) != '\0')
+	while (src[b] != '\0')
 	{
-		dest[b] = src[a];
+		dest[a] = src[b];
 		a++;
 		b++;
 	}
-	dest[b] = '\0';
+	dest[a] = '\0';
 
 	return (dest);
 }
