@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int a, ans = 1;
 
@@ -20,7 +20,7 @@ int main(int argc, char **argv)
 	{
 		for (i = 1; i < argc; i++)
 		{
-			ans *= atoi (argv[i]);
+			ans *= atoi(argv[i]);
 		}
 		printf("%d\n", ans);
 	}
