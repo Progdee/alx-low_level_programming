@@ -11,7 +11,12 @@
 
 int main(int agc, char *argv[])
 {
-	int sum = 0, count = 1, i;
+	int sum;
+	int count;
+	int i;
+
+	count = 1;
+	sum = 0;
 
 	if (argc == 1)
 	{
