@@ -1,15 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-
 /**
- * main - adds positive numbers
- * @argc: argument count
- * @argv: argument vector
- * Return: 0 if no number is passed, 1 if one of the nu...
+ * main - Main Entry
+ * @argc: input
+ * @argv: input
+ * Return: Always 0 (Success)
  */
-
-int main(int agc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int sum;
 	int count;
@@ -17,7 +15,6 @@ int main(int agc, char *argv[])
 
 	count = 1;
 	sum = 0;
-
 	if (argc == 1)
 	{
 		printf("0\n");
@@ -25,7 +22,7 @@ int main(int agc, char *argv[])
 	}
 	while (count < argc)
 	{
-		for (i = 0; argv[count][i] != "\0"; i++)
+		for (i = 0; argv[count][i] != '\0'; i++)
 		{
 			if (!(isdigit(argv[count][i])))
 			{
@@ -34,8 +31,8 @@ int main(int agc, char *argv[])
 			}
 		}
 		sum += atoi(argv[count]);
-		count ++;
+		count++;
 	}
 	printf("%d\n", sum);
 	return (0);
-}	
+}
