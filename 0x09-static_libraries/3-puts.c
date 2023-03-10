@@ -1,10 +1,18 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
 
-void _puts(char *s)
+/**
+ * _puts - prints a string
+ * @str: string
+ * Return: 0
+ */
+
+void _puts(char *str)
 {
-    puts(s);
+	int i;
+
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		putchar(str[i]);
+	}
+	putchar('\n');
 }
