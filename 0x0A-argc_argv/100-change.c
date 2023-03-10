@@ -1,13 +1,14 @@
 #include <stdio.h>
+#include <stlib.h>
+
 /**
- * main - prints the minimum number of coins to make change for an amount of money
+ * main - prints the minimum number of coins to make ...
  * @argc: argument count
  * @argv: argument Vector
- * Return: 1 if the number of arguments is not exactly 1, 0 if the number passed is negative
- *
+ * Return: 1 if the number of arguments is not exactly 1
  */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int cents, coins = 0;
 
@@ -45,7 +46,7 @@ int main(int argc, char **argv)
 	}
 	else
 	{
-		printf("Error\m");
+		printf("Error\n");
 		return (0);
 	}
 }
