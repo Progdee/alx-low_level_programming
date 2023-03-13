@@ -3,7 +3,7 @@
 
 /**
  * _strdup - returns a pointer to a newly allocated space
- * @str - string
+ * @str: string
  * Return: Null if str = NULL
  */
 
@@ -11,6 +11,7 @@ char *_strdup(char *str)
 {
 	char *new_string;
 	unsigned int size, i;
+
 	if (str == NULL)
 	{
 		return (NULL);
