@@ -1,19 +1,12 @@
 #include <stdio.h>
 
-#include "lists.h"
-
-void start_up_func(void)__attribute__((constructor));
-
 /**
- * before_main - funcion that prints a specific string before the main,
- * function in executed.
- *
+ * bmain - function executed before main
  * Return: no return.
  */
 
-
-void before_main(void)
+void __attribute__ ((constructor)) bmain()
 {
-	printf("You're beat! and yet, you must allow,\n");
-	printf("I bore my house upon my back!\n");
+	printf("You're beat! and yet, you must allow");
+	printf(",\nI bore my house upon my back!\n");
 }
